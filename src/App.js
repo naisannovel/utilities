@@ -1,5 +1,5 @@
 import React from "react";
-import AppPagination from './pagination/AppPagination';
+import AppPagination from './paginationCustom/AppPagination';
 
 function App() {
   return (
