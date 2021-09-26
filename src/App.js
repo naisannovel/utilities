@@ -1,10 +1,10 @@
 import React from "react";
-import AppPagination from './paginationCustom/AppPagination';
+import AppCustomPagination from './paginationCustom/AppCustomPagination';
 
 function App() {
   return (
     <div>
-      <AppPagination/>
+      {/* <AppCustomPagination/> */}
     </div>
   );
 }
