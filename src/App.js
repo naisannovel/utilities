@@ -1,9 +1,10 @@
 import React from "react";
+import AppPagination from './pagination/AppPagination';
 
 function App() {
   return (
     <div>
-      hello world
+      <AppPagination/>
     </div>
   );
 }
