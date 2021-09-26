@@ -5,7 +5,7 @@ import axios from 'axios';
 
 const App = () => {
   const [posts, setPosts] = useState([]);
-  const [currentPage, setCurrentPage] = useState(3);
+  const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(10);
 
   useEffect(() => {
@@ -29,11 +29,11 @@ const App = () => {
     <div className='container mt-5'>
       <h1 className='text-primary mb-3'>My Blog</h1>
       <Posts posts={currentPosts} />
-      {/* <Pagination
+      <Pagination
         postsPerPage={postsPerPage}
         totalPosts={posts.length}
         paginate={paginate}
-      /> */}
+      />
     </div>
   );
 };
